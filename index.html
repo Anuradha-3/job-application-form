@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Job Application form</title>
+</head>
+
+<body>
+    <center><strong>
+            <h1>JOB APPLICATION FORM</h1>
+        </strong></center>
+    <form action="">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <table>
+                <tr>
+                    <td><label for="">First Name</label></td>
+                    <td><input type="text" name="first_name" id="" required></td>
+                </tr>
+                <tr>
+                    <td><label for="">Last name</label></td>
+                    <td><input type="text" name="last_name" id="" required></td>
+                </tr>
+                <tr>
+                    <td><label for="">Date of Birth</label></td>
+                    <td><input type="date" name="DOB" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">Gender</label></td>
+                    <td><input type="radio" name="Gender" id="" required value="M">Male
+                        <input type="radio" name="Gender" id="" value="F">Female
+                        <input type="radio" name="Gender" id="" value="O">Others
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Profile Picture</label></td>
+                    <td><input type="file" name="pic" id="" required></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <table>
+                <tr>
+                    <td><label for="">Email</label></td>
+                    <td><input type="email" name="email" id="" required></td>
+                </tr>
+                <tr>
+                    <td><label for="">Phone Number</label></td>
+                    <td><input type="tel" name="mobile" id="" minlength="10" maxlength="10" required
+                            placeholder="10-digit number"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Address</label></td>
+                    <td><textarea name="Address" id="" rows="3" cols="35"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="">country</label></td>
+                    <td><select name="country" id="">
+                            <option value="INDIA">INDIA</option>
+                            <option value="USA">USA</option>
+                            <option value="Germany">Germany</option>
+                        </select></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Education Background</legend>
+            <table>
+                <tr>
+                    <td><label for="">Highest Qualification</label></td>
+                    <td><select name="Education" id="">
+                            <option value="Graduate">Graduate</option>
+                            <option value="Under Graduate">Under Graduate</option>
+                            <option value="PUC">PUC</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label for="">Specilization</label></td>
+                    <td><input type="text" name="Spec" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">Year of Graduation</label></td>
+                    <td><input type="number" name="yog" id="" min="2021" max="2026" step="1"></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Job Preferences</legend>
+            <table>
+                <tr>
+                    <td><label for="">Preferred Role</label></td>
+                    <td><input type="text" name="role" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">Expected Salary</label></td>
+                    <td><input type="number" name="Salary" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">Preferred Locations</label></td>
+                    <td>
+                        <input type="checkbox" name="location" id="" value="Bangalore">Bangalore
+                        <input type="checkbox" name="location" id="" value="Delhi">Delhi
+                        <input type="checkbox" name="location" id="" value="Pune">Pune
+                        <input type="checkbox" name="location" id="" value="Remote">Remote
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Willing to Relocate?</label></td>
+                    <td><input type="checkbox" name="locate" id="" value="yes"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Create Account</legend>
+            <table>
+                <tr>
+                    <td><label for="">Password</label></td>
+                    <td><input type="password" name="password" id="" required placeholder="Min 6 charecters"
+                            minlength="6" maxlength="8"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Confirm Password</label></td>
+                    <td><input type="password" name="password" id="" required minlength="6" maxlength="8"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Upload Resume(PDF only)</label></td>
+                    <td><input type="file" name="resume" id="" required></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Aggrement</legend>
+            <table>
+                <tr>
+                    <td><input type="checkbox" name="" id="" required></td>
+                    <td><label for="">I agree to the terms and conditions</label></td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <input type="submit" name="submit" id="">
+        <input type="reset" name="reset" id="">
+
+    </form>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
